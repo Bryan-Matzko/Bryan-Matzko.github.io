@@ -138,11 +138,23 @@
     z-index: 2;
 }
 .img-responsive {
-    width:360px;
+    width:250px;
     height:250px;
     max-width:250px;
     max-height:250px;
 }
+
+.img-responsive-portfolio {
+    max-width:500px;
+    max-height:500px;
+    min-height:80%;
+    margin:20px
+}
+.portfolio-centered-content {
+    width:100%;
+    margin:10px auto;
+}
+
 .img-experience {
     width:236px;
     height:250px;
