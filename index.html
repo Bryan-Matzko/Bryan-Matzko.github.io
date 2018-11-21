@@ -472,48 +472,51 @@
                               <p class="text-primary work-dates">Sept 2018 - Dec 2018</p>
                               <div class="subheading mb-3">Miovision</div>
                               <p>
-                                Currently I work on the legacy development team at Miovision, a company looking to aid in 
-                                the development of smart cities through the use of traffic data and traffic operations. 
-                                My team's goal is to improve the tooling of some of the older products provided by the company. 
-                                The legacy team helps improves the performance of these older products and counters, we also 
-                                look to make the customer experience more enjoyable. The majority of my work revolves 
-                                around the company's QAP product, a tool that allows for counters to record traffic data 
-                                from videos uploaded by external customers from the Company's traffic cameras. My main 
-                                goal for QAP is to update the tool's workflow, improve performance, automate certain 
-                                processes and support the data services team as issues and concerns rise. There are many 
-                                exciting wins our team has obtained within the first two months of me working at this 
-                                amazing company!
+                                Currently I work on the legacy development team at Miovision, a company looking to aid in the rise of 
+                                smart cities through the use of traffic data and traffic operations. My team's goal is to improve the 
+                                tooling of some of the older products/solutions provided by the company. The legacy team also helps 
+                                improve the performance of these older products and the company's traffic data counters, while making 
+                                the customer experience more enjoyable. 
                               </p>
+
                               <p>
-                                One big win was the creation of algorithms to provide counter's with intuitive default key 
-                                bindings based on historically tracked data. The default key bindings reduce user setup 
-                                time and are created for nearly all possible traffic intersection configurations. I also 
-                                created processes that take into account a counter's historical count tasks and provides 
-                                defaults that match their recent personalized key bindings. One of my future goals is to find 
-                                a way to provide counters with similar tasks, allowing for their historical defaults to 
-                                have even greater benefits in the reduction of counter setup time.
+                                The majority of my work revolves around the company's QAP product, a tool that allows for counters to 
+                                record traffic data from videos uploaded by external customers from cameras. My main goal for QAP is 
+                                to update the tool's workflow, improve performance, automate processes and support the data services 
+                                team as issues and concerns rise. The  There are many exciting wins our team has obtained during my 
+                                short time here!
                               </p>
+
                               <p>
-                                Another large win is the improvements made to the company's auto acceptance algorithms. 
-                                This algorithm takes into account the resultant data from both the counter's count data 
-                                and the overlap data that is recorded by a more experienced counter. Historical data was 
-                                analyzed to determine what is considered to be the thresholds for the company's data 
-                                acceptance standards. The findings were used to create strict filtering on count results. 
-                                The changes to the original algorithms reduced the  number of data comparisons admins 
-                                were forced to conduct manually all the while improving the processes that the data must 
-                                be run through. Algorithms were also created to automatically trigger task redo creations 
-                                on tasks whose data fell below a specified accuracy threshold. By auto creating redo's, 
-                                admins saved a lot more time allowing for the most stressful days to go by without the 
-                                fear of missing turnaround times. Future improvements for these changes will require that 
-                                we teach the computer how to accept more tasks, allowing us to handle the majority of 
-                                recurring cases that happen in production.
+                                One exciting piece of work I did was creating algorithms to provide counter's with intuitive default 
+                                key bindings based on historical data. The default key bindings reduce user setup time and are available 
+                                for nearly all traffic intersection configurations. I also created processes that take into account the
+                                bindings that a counter has used during their session. The cached data is used to speed up future tasks
+                                by using the counter's personal patterns. I am currently working on a new task fetcher that will provide
+                                counters with similar tasks, allow user's to reserve tasks and implement safeguards to ensure duplicate 
+                                tasks arent assigned to agents. The benifits of this new task assigner will highlight the intuitive 
+                                default and historical default work while improving agent fetch times.
                               </p>
+
                               <p>
-                                Another one of my team's goals is to run weekly releases involving feature flags. These 
-                                flags hide our incremental margin work to improve all aspects of QAP. As features are 
-                                created and tested, the feature flags allow us to instantly provide our users with 
-                                new features. These are two things that have never been done on QAP, especially during 
-                                a busy count season I am working during.
+                                Another large win is the improvements made to the company's auto acceptance algorithms. These algorithms 
+                                take into account the resultant data from both the counter data and verification data that is recorded by
+                                high level agents. Historical data was analyzed to determine thresholds for the data acceptance standards. 
+                                The findings were used to create strict restrictions for data acceptance and requirements were provided 
+                                for the new algorithm. The changes to the original algorithms reduced the number of data comparisons admins 
+                                were forced to conduct manually and prevented tasks from being accepted that shouldn't didn't meet the 
+                                standards. Algorithms were also created to automatically trigger task redo creations on tasks whose data 
+                                fell below a specified accuracy threshold. This also reduces the amount of manual work required by admins. 
+                                As we learn more about the data that is still being accepted, I will be adding new rules and cases that 
+                                increase acceptance rates while holding up the company standards.
+                              </p>
+
+                              <p>
+                                Throughout the term I have made huge strides towards mitigating risk during development with the aid 
+                                of feature flags, well rounded unit tests and fallbacks. This has allowed me to schedule weekly releases
+                                with impactful feature improvements and bug fixes. Previously, releases were done several times a year.
+                                This is made possible by working closely with stakeholders, I have been running weekly meetings, analyzing 
+                                and planning potential work and I have taken the lead role on the majority of releases.
                               </p>
                               <ul class="list-inline links">
                                 <li>
@@ -556,11 +559,12 @@
                             <p>
                               I spent two terms at FleetCarma working on the .NET team as a software developer. FleetCarma 
                               is a company with the goal of driving electric vehicle adoption around the world. Their main
-                              product was a device that plugs into the OBD port in any car. The device has the capability
+                              product is a device that plugs into the OBD port in any car. The device has the capability
                               of recording vast data which is received and decoded using different services inside their
                               technological pipeline. Spending 8 months at FleetCarma was amazing as I was able to touch a
-                              vast majority of the services and solutions the company has to offer. The majority of my 
-                              work was backend development, however I did fiddle around with React every now and then.
+                              vast majority of the services (including legacy code) and solutions the company has to offer. 
+                              The majority of my work was backend development, however I did fiddle around with React every 
+                              now and then.
                             </p>
                             <p>
                               Some of the tasks I worked on include the creation and improvements of the many 
@@ -572,17 +576,16 @@
                             </p>
                             <p>
                               Some of my favorite work here focused on database improvements and migrations. I created a 
-                              multitude of stored procedures, database migrations written in MS SQL and created/improved 
-                              important tables. One of my larger database migrations involved refactoring related vehicle
-                              information tables to enable association of trim levels retrieved from VINs for all vehicles, 
-                              a key factor in determining more granular vehicle data based on model specifications. I also 
-                              created proof of concepts and created all the plans to remove the need for a separate database 
-                              used for analytics in the Fleet Management Portals. My plans allowed for OLTP and analytics 
-                              workloads to use the same database. This allows for the real time operational analytics. All 
-                              this was achieved through research into indexes, columnstore indices and analysis of the 
+                              multitude of stored procedures, database migrations using SQL Server and I created/improved 
+                              many important tables. One of my larger database migrations involved refactoring related vehicle
+                              information tables to enable the association of trim levels retrieved from VINs for all vehicles, 
+                              the vehicle trim is a key factor in determining more granular vehicle data based on model 
+                              specifications. I also created proof of concepts and created all the plans to remove the need for 
+                              a separate database used for analytics in the Fleet Management Portals. My plans allowed for OLTP 
+                              and analytics workloads to use the same database. This allows for the real time operational analytics. 
+                              All this was achieved through research into indexes (such as columnstore indexes) and analysis of the 
                               current database schema. Performance after my proposed changes resulted in queries that ran 
-                              in less than 1% of the original runtime whilst being more accurate in the obtained 
-                              information.
+                              in less than 1% of the original runtime whilst being more accurate in the obtained information.
                             </p>
                             <ul class="list-inline links">
                               <li>
@@ -619,19 +622,18 @@
                             <p class="text-primary work-dates">Sept 2016 - Dec 2016</p>
                             <div class="subheading mb-3">Trapeze Group</div>
                             <p>
-                              During my time at Trapeze Group I worked on an ASP.NET Core project which reciprocated 
-                              a file explorer of sorts. This tool was to be used internally that could allow users to 
-                              download products and tools wherever and whenever they wished (as long as they) had valid 
-                              credentials. I performed performance analysis on the project and significantly improved 
-                              the app's run-times by analyzing/improving code.
+                              During my time at Trapeze Group I worked on an ASP.NET Core MVC project which reciprocated 
+                              a file explorer of sorts. This tool was to be used as the company's file management system 
+                              and allow employees to download solutiions and tools for personal use or for distribution. 
+                              From the original code that was written, I was able to reduce app load times by up to 18x
+                              through code and performance analysis.
                             </p>
                             <p>
-                              Some fun items I worked on were the improvement and addition of widgets the team used in
-                              their different projects. I also converted some legacy code to be more modern, for example
-                              I converted HTML Helpers to Tag Helpers and I created editor and display templates as 
-                              needed. I worked on both front-end and backend code using C#, JavaScript, jQuery, .cshtml, 
-                              HTML and 
-                              CSS. 
+                              Other things I worked on include improving and adding widgets that the team used in different
+                              web applications. I converted legacy code to follow more modern standards, such as the use of
+                              tag helpers from previous HTML helpers. I created editor and display templates for various 
+                              applications. During the term I worked on both front-end and backend code using C#, JavaScript, 
+                              jQuery, CSHTML, HTML and CSS.
                             </p>
                             <ul class="list-inline links">
                               <li>
@@ -675,12 +677,11 @@
                               useful unit tests while improving my basic knowledge of coding practices. While working on
                               this, I was able to add functionality to older extensions.
                             </p>
+
                             <p>
                               Upon learning how the various applications worked, my next task was to create a new extension 
-                              that enabled communication between a new VeriFone device the company hadn't yet worked with 
-                              and drivers using web services. During my time here, I worked a lot with C#, XML and XSLT. 
-                              This being my first co-op, gave me a lot of new insights regarding how I improve my code and 
-                              for that, I will always be thankful!
+                              that enabled communication between a new VeriFone device, the company hadn't yet worked with, 
+                              and drivers using web services. During my time here, I worked with C#, XML and XSLT.
                             </p>
                             <ul class="list-inline links">
                               <li>
@@ -715,18 +716,19 @@
                             <div class="resume-content mr-auto">
                               <h3 class="mb-3">Fitness Timer IOS App</h3>
                               <p>
-                                  I've always had a bone to pick with fitness timers that I have used in the past. I love 
-                                  features that some apps have, but I have never found a single app that has all the 
-                                  capabilities I want in a timer. In turn, I have started to design my 
-                                  own personal IOS application that I can use in the gym. 
+                                  Every fitness timer app I have used has had something awesome I found helpful, however, I
+                                  have always wanted a timer that includes the best features from various apps. In turn, I have 
+                                  started to design my own personal IOS application that I can use at the gym. The app is still 
+                                  in progress, but it will include all the features I have ever found useful!
                               </p>
                               <p>
-                                  I have a lot of ideas for my app, however I started with the basics. My first goal was 
-                                  to run basic timer types such as For Time, EMOMs, AMRAPs and Tabata’s. This was done using
-                                  editable text fields that opened picker views. These picker views allow for users to select 
-                                  work/rest durations, rounds, and total time to run. I purposefully made the code for the 
-                                  single timer pickers non-reusable. This was a learning excersize to familiarize myself with 
-                                  a complex handling of different pickers. I took this as a fun little challenge for myself.
+                                  I have a lot of ideas floating around in my head for the app, however I started with the basics. 
+                                  My first goal was to run basic timer types such as For Time, EMOMs, AMRAPs and Tabata’s. This 
+                                  was done using editable text fields that opened picker views. These picker views allow for users 
+                                  to select work/rest durations, rounds, and total time to run. I purposefully made the code for 
+                                  the single timer pickers non-reusable. This was a learning excersize to familiarize myself with 
+                                  a somewhat complex handling of different pickers. The first phase of my app was a fun challenge
+                                  that familiarized me with Swift.
                               </p>
 
                               <div>
